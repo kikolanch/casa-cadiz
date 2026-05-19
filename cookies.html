@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies | EA7 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold: #c5a880; --green: #1b3022; --light: #fdfaf6; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--light); color: #333; line-height: 1.8; margin: 0; padding: 60px 20px; }
+        .card { max-width: 850px; margin: auto; background: white; padding: 60px; border-radius: 4px; box-shadow: 0 30px 60px rgba(0,0,0,0.05); position: relative; overflow: hidden; }
+
+        /* Galleta Mordida Superior */
+        .cookie-art { position: absolute; top: -20px; right: -20px; width: 180px; height: 180px; opacity: 0.1; transform: rotate(15deg); pointer-events: none; }
+
+        h1 { color: var(--green); font-size: 2.4rem; border-bottom: 1px solid var(--gold); padding-bottom: 20px; margin-bottom: 30px; }
+        h2 { color: var(--green); margin-top: 40px; font-size: 1.5rem; }
+        p { text-align: justify; color: #444; margin-bottom: 20px; }
+
+        .btn-return {
+            display: inline-flex; align-items: center; padding: 18px 45px; background: var(--green); color: white;
+            text-decoration: none; border-radius: 50px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+            transition: 0.5s; box-shadow: 0 10px 30px rgba(27, 48, 34, 0.3); margin-top: 50px;
+        }
+        .btn-return:hover { background: var(--gold); transform: translateY(-5px); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Diseño de Galleta Mordida Avanzado -->
+        <svg class="cookie-art" viewBox="0 0 100 100">
+            <defs>
+                <filter id="shadow">
+                    <feDropShadow dx="0.5" dy="0.5" stdDeviation="0.5" flood-opacity="0.3"/>
+                </filter>
+            </defs>
+            <circle cx="50" cy="50" r="45" fill="#D2B48C" />
+            <path d="M85,35 A15,15 0 0,1 70,50 A15,15 0 0,1 55,35 A15,15 0 0,1 70,20 A15,15 0 0,1 85,35" fill="white" />
+            <circle cx="35" cy="35" r="4" fill="#5D4037" filter="url(#shadow)"/>
+            <circle cx="55" cy="55" r="5" fill="#5D4037" filter="url(#shadow)"/>
+            <circle cx="45" cy="70" r="3" fill="#5D4037" filter="url(#shadow)"/>
+            <circle cx="25" cy="60" r="4" fill="#5D4037" filter="url(#shadow)"/>
+            <circle cx="70" cy="70" r="4" fill="#5D4037" filter="url(#shadow)"/>
+        </svg>
+
+        <h1>Política de Cookies Extendida</h1>
+        <p>El portal web de <strong>EA7</strong> utiliza tecnologías de almacenamiento y recuperación de datos conocidas como "cookies" para garantizar una navegación fluida, segura y personalizada en el entorno de nuestra casa rural[cite: 4, 7].</p>
+
+        <h2>1. Clasificación y Uso de Cookies</h2>
+        <p>Este sitio web emplea cookies técnicas esenciales que permiten la correcta visualización del diseño responsivo y la carga de tipografías premium desde servidores externos[cite: 4, 7]. Asimismo, se integran cookies de terceros mediante la API de Google Maps para facilitar la geolocalización precisa de nuestra estancia en la costa gaditana[cite: 4, 7].</p>
+
+        <h2>2. Consentimiento e Interacción del Usuario</h2>
+        <p>Al interactuar con los elementos dinámicos de esta web, el usuario acepta de forma implícita la instalación de estas cookies técnicas[cite: 4]. No obstante, recordamos que el usuario tiene la potestad absoluta de restringir, bloquear o eliminar cualquier cookie instalada en su equipo a través de la configuración de privacidad de su navegador web habitual[cite: 4]. La desactivación de ciertas cookies puede degradar la experiencia visual y funcional del portal de EA7.</p>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="btn-return"><span>←</span> VOLVER AL PORTAL PRINCIPAL</a>
+        </div>
+    </div>
+</body>
+</html>
